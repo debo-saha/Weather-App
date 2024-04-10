@@ -34,6 +34,11 @@ header{
     outline: none;
     color: white;
 }
+@media only screen and (max-width: 485px) {
+    .searchBar{
+        width: 280px;
+    }
+}
 main{
     /* border: 2px solid; */
     margin: 10px;
@@ -50,6 +55,14 @@ main ul {
 .place{
     font-size: 28px;
 
+}
+@media only screen and (max-width: 420px) {
+    .place{
+        font-size: 20px;
+    }
+    .input_box {
+        width: 100px;
+    }
 }
 .weatherType{
     border: 2px solid #1e1e1e;
@@ -74,6 +87,11 @@ main ul {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     background-color: #eee;
+}
+@media only screen and (max-width: 530px) {
+    .weather{
+        grid-template-columns: 1fr;
+    }
 }
 .weather li{
     /* border: 2px solid; */
