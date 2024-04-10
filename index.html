@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="https://openweathermap.org/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <section class="searchBar">
+            <span style="color: white;" class="material-symbols-outlined">
+                search
+                </span>
+            <input id="input"  placeholder="Seacrh Your City" type="text">
+        </section>
+        <button class="search_button">Search</button>
+    </header>
+    <main>
+        <ul>
+            <li class="place">London,United KingDom</li>
+            <li class="realtime">Friday,february 2024</li>
+            <li class="weatherType">cloud</li>
+            <li class="weatherImage">clody</li>
+            <li class="temp">278&#176</li>
+            <li><ul class="min_max_temp">
+                <li class="mintemp">min:277&#176</li>
+                <li class="maxtemp">min:285&#176</li>
+            </ul></li>
+        </ul>
+    </main>
+
+    
+    <footer>
+        <ul class="weather">
+            <li><span  class="material-symbols-outlined">
+                device_thermostat
+                </span>
+                <span><p>Feels Like</p>
+                <p class="feelslike">28&#176</p>
+                </span></li>
+            <li><span class="material-symbols-outlined">          
+            humidity_mid
+        </span>
+                <span><p>Humidity</p>
+                <p class="humidity">28&#176</p>
+                </span></li>
+            <li><span class="material-symbols-outlined">
+                air
+                </span>
+                <span><p>wind</p>
+                <p class="wind">28&#176</p>
+                </span></li>
+            <li><span class="material-symbols-outlined">
+                wifi_tethering_error
+                </span>
+                <span><p>Pressure</p>
+                <p class="Pressure">28&#176</p>
+                </span></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
